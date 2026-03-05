@@ -1,0 +1,4 @@
+TIME_COMPLEXITY : O(n)
+SPACE_COMPLEXITY : O(n)
+APPROACH : Array me even numbers ko pehle aur odd numbers ko baad me rakhna hai.
+Iske liye hum ek new array banate hain aur do baar traversal karte hain.
