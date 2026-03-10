@@ -1,0 +1,4 @@
+TIME_COMPLEXITY = O(1)
+SPACE_COMPLEXITY = O(1)
+approach : Power of two numbers ki binary representation me sirf ek hi 1 hota hai.
+Isliye agar (n & (n-1)) == 0 aur n > 0 ho, to number Power of Two hai.
