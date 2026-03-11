@@ -1,0 +1,5 @@
+TIME_COMPLEXITY: O(2^n)
+SPACE_COMPLEXITY: O(n)
+APPROACH: Is code me recursion use hua hai. 
+Fibonacci number nikalne ke liye function fib(n-1) aur fib(n-2) ko call karta hai aur unka sum return karta hai, 
+jab tak base case (n=0 ya n=1) na mil jaye.
