@@ -1,0 +1,6 @@
+TIME_COMPLEXITY = O(n)
+SPACE_COMPLEXITY = O(1)
+ALGORUTHM = Sabse pehle array ka total sum calculate karte hain.
+ Phir array ko dubara traverse karte hain aur ek variable leftsum maintain karte hain jo current index ke left side ka sum store karta hai. Har index i par right sum = totalSum − nums[i] − leftsum se calculate karte hain. 
+ Agar leftsum aur rightsum equal ho jate hain, to wahi index pivot index hota hai aur usko return kar dete hain. Agar pura array traverse karne ke baad bhi aisa index nahi milta,
+ to -1 return kar dete hain.
