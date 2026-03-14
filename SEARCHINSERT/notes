@@ -1,0 +1,5 @@
+TIME_COMPLEXITY = O(log n)
+SPACE_COMPLEXITY = O(1)
+APPROACH = Binary Search on a sorted array.
+Compare the middle element with the target and adjust the search range accordingly. 
+If the element is not found, return low as the correct insert position.
